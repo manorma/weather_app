@@ -19,8 +19,8 @@ You should see the app working at this point..
 
 # Architecure
 
-This app follows Bloc clean architecture.
-folllows folder structure folder-by-layer (data,domain,presentation)
+This app follows Bloc clean architecture with modular approach.
+folllows folder structure folder-by-layer (data,domain,presentation).
 
 # Dependencies
 
