@@ -1,16 +1,20 @@
 # flutter_weather_app
 
-A new Flutter project.
+This is a sample Weather app 
 
 ## Getting Started
+Download the repo
+Make sure you are on the Flutter Stable Channel
+flutter channel stable
+flutter upgrade
+Install dependencies, when asked, after downloading the project.
+Run the cmd
+flutter run
+You should see the app working at this point..
 
-This project is a starting point for a Flutter application.
+Architecure
+This app follows Bloc clean architecture.
+folllows folder structure folder-by-layer (data,domain,presentation)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dependencies
+Used Dio for network call,GetIt for injection,flutter_bloc
